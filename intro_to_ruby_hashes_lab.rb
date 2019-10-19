@@ -19,8 +19,9 @@ id_generator={:id=> 4}  # return a hash with a key :id assigned to positive inte
 end
 
 def my_hash_creator(key,value)
-new_hash={}
-new_hash= {:key=>value}
+  my_hash_creator = {
+     key => value
+   }
   # return a hash that includes the key and value parameters passed into this method
 end
 
@@ -32,7 +33,7 @@ end
 
 def update_counting_hash(total:5,'hi')
   if update_counting_hash[age:]
-    update_counting_hash(2)+=1
+    update_counting_hash
 
 
 
