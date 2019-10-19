@@ -31,9 +31,8 @@ def read_from_hash(hash,key)
 # return the correct value using the hash and key parameters
 end
 
-def update_counting_hash(total:5,'hi')
-  if update_counting_hash[age:]
-    update_counting_hash
+def update_counting_hash(hash,key)
+  
 
 
 
