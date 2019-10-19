@@ -19,7 +19,8 @@ id_generator={:id=> 4}  # return a hash with a key :id assigned to positive inte
 end
 
 def my_hash_creator(key,value)
-my_hash_creator={}
+new_hash={}
+new_hash.push(key,value)
   # return a hash that includes the key and value parameters passed into this method
 end
 
